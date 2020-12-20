@@ -1,10 +1,10 @@
 # *M*ake*P*ython*E*asier, MPE
 ### Usefull Python utility for coding and use classes for making python easier to use and code
 ***Please don't sell this Utility***
-This Library/Utility has been developed by Pooria Ahmadi and feel free to edit it and use it easily :), If you want, you can send me the edited version and let me add the edited ones to base library and mention you in the main file.
-Discord: https://discord.gg/F6MV4Pu5mu
-Github: https://github.com/pooriaahmadi
-Youtube: https://www.youtube.com/channel/UCJd8Q9A-fyIpajhLvCvjViA
+- This Library/Utility has been developed by Pooria Ahmadi and feel free to edit it and use it easily :), If you want, you can send me the edited version and let me add the edited ones to base library and mention you in the main file.
+- Discord: https://discord.gg/F6MV4Pu5mu
+- Github: https://github.com/pooriaahmadi
+- Youtube: https://www.youtube.com/channel/UCJd8Q9A-fyIpajhLvCvjViA
 ## Features:
 ***ALL CLASSES HAVE DEAFULT VALUE*** You can import empty and use default values
 - Turtle
