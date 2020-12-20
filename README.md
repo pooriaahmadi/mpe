@@ -5,6 +5,10 @@
 - Discord: https://discord.gg/F6MV4Pu5mu
 - Github: https://github.com/pooriaahmadi
 - Youtube: https://www.youtube.com/channel/UCJd8Q9A-fyIpajhLvCvjViA
+## Requirements:
+- turtle, import turtle
+- datetime, import datetime
+- random, import random
 ## Features:
 ***ALL CLASSES HAVE DEAFULT VALUE*** You can import empty and use default values
 - Turtle
