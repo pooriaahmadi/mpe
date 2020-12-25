@@ -6,12 +6,39 @@
 #Youtube: https://www.youtube.com/channel/UCJd8Q9A-fyIpajhLvCvjViA
 #Documnetions are in guthub and toturials are in YT channel
 #imports
+import os
 import turtle as tr
 import datetime as dt
 import random
 #global variables
 date=dt.datetime.now()
 #classes
+class _file:
+    def createFile(destination, data=""):
+        destination = open(destination, "wt")
+        destination.write(data)
+        destination.close()
+    def copy(source, destination=""):
+        source = open(source, "rb")
+        destination = open(destination, "wb")
+        destination.write(source.read())
+        source.close()
+        destination.close()
+    def delete(target):
+        os.remove(target)
+    def read(target):
+        target = open(target, "rb")
+        result = target.read()
+        target.close()
+        return result
+    def writeFile(target, data):
+        target = open(target, "wt")
+        target.write(data)
+        target.close()
+    def appenFile(target, data):
+        target = open(target, "at")
+        target.write(data)
+        target.close()
 class _turtle:
     def __init__(self):
         self.pen = tr.Turtle()
@@ -380,3 +407,8 @@ class _color:
             return self.runApp()
         def __str__(self):
             return self.runApp()
+if __name__ == "__main__":
+    print("Github: https://github.com/pooriaahmadi/mpe")
+    print("Youtube: https://www.youtube.com/channel/UCJd8Q9A-fyIpajhLvCvjViA")
+    print("Discord: https://discord.gg/F6MV4Pu5mu")
+    print("Please import this utility in your code using `import makepythoneasier`")
